@@ -1,7 +1,9 @@
 # Redux-anity (WIP!)
 Handle data dependencies declaratively
 
-`-anity` because the prefix is yet to be decided: s-, ins-, or lins- ![linsanity](https://media.giphy.com/media/WrBKMqGyrEvAs/giphy.gif)
+`-anity` because the prefix is yet to be decided: s-, ins-, or lins-
+
+![linsanity](https://media.giphy.com/media/WrBKMqGyrEvAs/giphy.gif)
 
 
 ## Install
