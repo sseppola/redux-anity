@@ -1,0 +1,27 @@
+{
+  "name": "redux-anity",
+  "version": "0.0.0",
+  "description": "Handle data dependencies declaratively",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "async",
+    "data",
+    "dependencies",
+    "data",
+    "fetch",
+    "http",
+    "declarative"
+  ],
+  "author": "Sindre Seppola <sblix.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "data.task": "^3.1.1",
+    "prop-types": "^15.5.10",
+    "ramda": "^0.24.1",
+    "recompose": "^0.24.0"
+  }
+}
