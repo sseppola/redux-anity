@@ -2,9 +2,11 @@
   "name": "redux-anity",
   "version": "0.0.0",
   "description": "Handle data dependencies declaratively",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "repository": "https://github.com/sseppola/redux-anity",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "test": "ava"
   },
   "keywords": [
     "redux",
@@ -22,6 +24,33 @@
     "data.task": "^3.1.1",
     "prop-types": "^15.5.10",
     "ramda": "^0.24.1",
+    "react": "^15.6.1",
     "recompose": "^0.24.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "enzyme": "^2.9.1"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
   }
 }
