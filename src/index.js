@@ -7,4 +7,4 @@ export {
 
 export { default as constants } from './constants.js'
 export { dataDependencies } from './dataDependenciesHoc.js'
-export { middleware } from './middleware.js'
+export { configureMiddleware } from './middleware.js'
