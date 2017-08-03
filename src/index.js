@@ -3,8 +3,8 @@ export {
   reduxAnityError,
   reduxAnityWanted,
   generateActionIdentifiers,
-} from './src/actionIdentifiers.js'
+} from './actionIdentifiers.js'
 
-export { default as constants } from './src/constants.js'
-export { dataDependencies } from './src/dataDependenciesHoc.js'
-export { middleware } from './src/middleware.js'
+export { default as constants } from './constants.js'
+export { dataDependencies } from './dataDependenciesHoc.js'
+export { middleware } from './middleware.js'
